@@ -43,7 +43,7 @@
   <project path="build" name="android_build" groups="pdk" remote="rr" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="android" name="platform_manifest" remote="rr"/>
+  <project path="android" name="nel82/wastro1" remote="github"/>
   <project path="external/android-visualizer" name="android_external_android-visualizer" remote="rr"/>
   <project path="external/DUtils" name="external_DUtils" remote="rr" />
   <project path="external/sepolicy" name="android_external_sepolicy" groups="pdk" remote="rr" />
